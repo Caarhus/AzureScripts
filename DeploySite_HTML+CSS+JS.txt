@@ -1,0 +1,9 @@
+mkdir chiokeIO
+
+cd $HOME/chiokeIO
+
+git clone https://github.com/Caarhus/ChiokeIO.git
+
+az webapp up --location centralus --name chiokeIO Ðhtml
+
+
